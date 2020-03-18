@@ -1,7 +1,7 @@
 ## usersテーブル
 |Column|Type|Options|
 |------|----|-------|
-|user_name|string|null:false,unique:true|
+|name|string|null:false,unique:true|
 |mail_adress|string|null:false,unique:true|
 |password|string|null:false|
 
@@ -25,7 +25,7 @@
 ## groupsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|group_name|string|null:false|
+|name|string|null:false|
 
 ### Association
 - has_many:messages
