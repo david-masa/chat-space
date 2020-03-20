@@ -1,3 +1,61 @@
-*{
-  box-sizing: border-box;
+* {box-sizing: border-box;}
+
+.chat-side{
+  float: left;
+  width: 300px;
+
+  .side-header{
+    height: 100px;
+    background-color: #253141;
+    display: flex;
+    align-items: center;
+
+    &__box{
+      height: 20px;
+      width: 260px;
+      display: flex;
+      justify-content: space-between;
+      background-color: #ffffff;
+      margin: 0 auto;
+      font-size: 16px;
+
+      ul{
+        width: 60px;
+              }
+
+      &__icon{
+        color: blue;
+        margin-left: 5px;
+        
+      }
+    }
+  }
+
+  .groups{
+    height: calc(100vh - 100px);
+    background-color: #2f3e51;
+  }
+}
+
+
+.chat-main{
+  width: calc(100vw - 300px);
+
+
+  .main-header{
+    height: 100px;
+    background-color: #ffffff;
+
+  }
+    
+  .messages{
+    height: calc(100vh - 190px);
+    background-color: #fafafa;
+
+  }
+  .form{
+    height: 90px;
+    background-color: #d2d2d2;
+
+  }
 }
