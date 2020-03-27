@@ -46,15 +46,17 @@
 
       .group{
         padding: 20px 20px 40px;
+        text-decoration: none;
 
         &__group-name{
           font-size: 15px;
           margin-bottom: 5px;
-
+          color: $color1;
         }
 
         &__latest-message{
           font-size: 11px;
+          color: $color1;
         }
       }
     }
