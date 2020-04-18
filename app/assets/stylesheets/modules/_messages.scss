@@ -111,6 +111,7 @@
       height: calc(100vh - 100px - 90px);
       background-color: $color7;
       padding: 35px 40px 0;
+      overflow: scroll;
 
       .message{
         .message__upper-info{
@@ -145,7 +146,6 @@
 
       .input-box{
         position: relative;
-
 
         &__text{
           height: 50px;
