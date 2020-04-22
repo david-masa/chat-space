@@ -74,6 +74,7 @@
       padding: 0 40px;
       display: flex;
       justify-content: space-between;
+      border-bottom: solid 1px $color1;
 
       &__left-box{
         display: flex;
@@ -116,6 +117,8 @@
       overflow: scroll;
 
       .message{
+        margin-bottom: 46px;
+
         .message__upper-info{
           display: flex;
           flex-direction: row;
@@ -133,7 +136,6 @@
         }
 
         &__text{
-          margin-bottom: 46px;
           font-size: 14px;
           color: $color8;
         }
