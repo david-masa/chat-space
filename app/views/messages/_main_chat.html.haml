@@ -21,4 +21,5 @@
         = f.label :image, class: 'input-box__image' do
           = icon('far', 'image')
           = f.file_field :image, class: 'input-box__image__file'
+        = f.text_field :youtube_url, class: 'input-box__url', placeholder: 'type a url'
         = f.submit 'Send', class: 'input-box__submit-btn'
